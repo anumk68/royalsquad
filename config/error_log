@@ -1,0 +1,8 @@
+[15-Feb-2025 22:04:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/royaitfy/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/royaitfy/public_html/config/database.php on line 19
+[19-Feb-2025 02:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/royaitfy/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/royaitfy/public_html/config/cache.php on line 18
