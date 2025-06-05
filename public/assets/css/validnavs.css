@@ -468,9 +468,9 @@ nav.navbar.validnavs .navbar-toggle {
 	padding: 30px 0;
 }
 
-nav.navbar.validnavs .navbar-toggle i {
+/* nav.navbar.validnavs .navbar-toggle i {
 	font-weight: 300;
-}
+} */
 
 .bg-dark nav.navbar.validnavs .navbar-toggle i {
 	color: var(--white);

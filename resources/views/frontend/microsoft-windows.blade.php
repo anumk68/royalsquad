@@ -9,7 +9,7 @@ style="background-image: url(public/assets/img/banner/Microsoft_windows_banner.j
         <div class="col-lg-6">
             <h1>Microsoft Windows Technical Support</h1>
             <p>Need reliable Microsoft Windows Technical Support in the USA? Royal Squad offers expert assistance for troubleshooting, installation, and optimization.</p>
-            <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+            <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
         </div>
         <div class="col-lg-6  appoinment">
             <div class="appoinment-box text-center">
@@ -47,7 +47,7 @@ style="background-image: url(public/assets/img/banner/Microsoft_windows_banner.j
                 <div class="service-items text-center pb-4 ser-d">
                     <div class="row">
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4 single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-cogs"></i>
@@ -60,7 +60,7 @@ style="background-image: url(public/assets/img/banner/Microsoft_windows_banner.j
                     </div>
                     <!-- End Single item -->
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4 single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-scanner-touchscreen"></i>
@@ -73,7 +73,7 @@ style="background-image: url(public/assets/img/banner/Microsoft_windows_banner.j
                     </div>
                     <!-- End Single item -->
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4 single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-bolt"></i>
@@ -137,7 +137,7 @@ style="background-image: url(public/assets/img/banner/Microsoft_windows_banner.j
                     <ul>
                         <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                         <!-- <li><a href="wordpress-theme-it.php">WordPress Theme</a></li> -->
                         <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>

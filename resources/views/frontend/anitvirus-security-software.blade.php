@@ -30,7 +30,7 @@
               <p>​With the increasing use of technology in everyday life, securing your devices from viruses, malware, and cyber attacks is necessary. Royal Squad provides professional Antivirus and Security Software Support to provide real-time protection, <a href="{{ route('softwareapplication') }}">software application support,</a> update software, and optimize performance. Our experts offer 24/7 support to ensure your systems are safe and operate smoothly.</p>
                 <div class="service-items text-center pb-4 ser-d">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-cogs"></i>
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-scanner-touchscreen"></i>
@@ -52,7 +52,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-bolt"></i>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-lg-12 col-md-4">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <h5>Key Advantages of Our Antivirus & Security Software Support</h5>
                         <ul class="checked-list mt-1">
                             <li><strong>Advanced Threat Protection :</strong> Protect your devices from viruses, malware, and cyberattacks.</li>
@@ -106,7 +106,7 @@
                     <ul>
                         <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                         <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                     </ul>

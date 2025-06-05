@@ -17,7 +17,7 @@
                 </h1>
                 <p>Experience top-notch Smartphone and Tablet Technical Support in the USA with Royal Squad. Expert troubleshooting, repairs, and setup assistance.
                 </p>
-                <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+                <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
             </div>
 
             <div class="col-lg-6  appoinment">
@@ -73,7 +73,7 @@
 
                         <!-- Single item -->
 
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
 
                             <div class="item">
 
@@ -98,7 +98,7 @@
 
                         <!-- Single item -->
 
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
 
                             <div class="item">
 
@@ -123,7 +123,7 @@
 
                         <!-- Single item -->
 
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
 
                             <div class="item">
 
@@ -156,7 +156,7 @@
                <h3>Secure Your Smartphone and Tablet with Our Help</h3>
 
                 <p>We also provide high-quality security solutions, including virus protection, data encryption, and backup services. Our specialists implement effective measures to safeguard your devices, ensuring privacy, reliability, and smooth performance in today's digital landscape.</p>
-                <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get A Quote</a>
+                <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
 
             </div>
 
@@ -209,7 +209,7 @@
 
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
 
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
 
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
 

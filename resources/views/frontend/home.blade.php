@@ -137,7 +137,7 @@
                 <div class="info">
                     <h4>Expert Assistance</h4>
                     <p>Get professional help for cleaning, repairs, and more—ensuring a stress-free home environment.</p>
-                    <a href="#">Discover More <i class="fas fa-angle-right"></i></a>
+                    <a href="{{ route('contact') }}">Discover More <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
         </div>
@@ -671,7 +671,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 contact-form-box">
-                <div class="content">
+                <div class="content home_contact_page">
                     <div class="heading">
                         <h2 class="title">Need Help?</h2>
                         <p>Reach out to the world’s most reliable IT services.</p>
@@ -711,8 +711,8 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <button type="submit" name="submit" id="submit">
-                                    Get a free consultation
+                                <button type="submit" name="submit" id="submit" class="btn-standard button_effect home_btn_bottom"> 
+                                    Submit Query
                                 </button>
                             </div>
                         </div>

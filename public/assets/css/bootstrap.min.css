@@ -8010,7 +8010,7 @@ textarea.form-control-lg {
 }
 
 .text-start {
-    text-align: left!important
+    text-align: center!important
 }
 
 .text-end {
@@ -8320,6 +8320,9 @@ textarea.form-control-lg {
         float:left!important
     }
 
+    .banner-area {
+    padding: 60px 0 !important;
+}
     .float-sm-end {
         float: right!important
     }

@@ -9,12 +9,14 @@ style="background-image: url(public/assets/img/banner/Program_errors_crashes_ban
         <div class="col-lg-6">
             <h1>Program Errors and Crashes Technical Support</h1>
             <p>Receive professional technical support for program errors and crashes. Troubleshoot problems, repair bugs, and solve software crashes effectively.</p>
+            <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
         </div>
         <div class="col-lg-6  appoinment">
             <div class="appoinment-box text-center">
                 <div class="heading">
                     <h4>Appointment</h4>
                     <p>Easily schedule your appointment and let our team ensure a seamless and personalized experience for you. </p>
+                    
                 </div>
                     @include('frontend.common_form.form')
                 </div>
@@ -38,7 +40,7 @@ style="background-image: url(public/assets/img/banner/Program_errors_crashes_ban
                 <div class="service-items text-center pb-4 ser-d">
                     <div class="row">
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 mb-4 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4  single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-cogs"></i></div>
@@ -101,7 +103,7 @@ style="background-image: url(public/assets/img/banner/Program_errors_crashes_ban
                     </div>
                     <h3>Reliable Technical Support for Software Errors and Crashes</h3>
                     <p>Companies and developers everywhere in the USA count on solid software for smooth functioning. Our skilled <a href="{{ route('anitvirussecuritysoftware') }}">IT support software</a> technical support rapidly identifies and solves software bugs and crashes, minimizing downtime and improving performance.</p>
-                    <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get Free Consultation</a></div>
+                    <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect" href="{{ route('contact') }}">Get Free Consultation</a></div>
                     <div class="col-lg-4 sidebar">
                         <h4>Tech Services </h4>
                         <div class="sidebar-item link">
@@ -128,7 +130,7 @@ style="background-image: url(public/assets/img/banner/Program_errors_crashes_ban
                             <ul>
                                 <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                                 <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                                <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                                <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                                 <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                                 <!-- <li><a href="wordpress-theme-it.php">WordPress Theme</a></li> -->
                                  <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>

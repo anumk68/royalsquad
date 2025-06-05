@@ -1,9 +1,9 @@
 @extends('includes.app')
 @section('content')
-    <div class="breadcrumb-area shadow dark bg-fixed text-light"
+    <div class="breadcrumb-area shadow dark bg-fixed text-light center_heading"
         style="background-image: url(public/assets/img/contact.jpg);">
         <div class="container">
-            <div class="row align-center">
+            <div class="row align-center text-center">
                 <div class="col-lg-12">
                     <h1>Blog</h1>
                 </div>
@@ -20,7 +20,7 @@
             <div class="row">
 
                 @foreach($data as $data)
-                    <div class="col-lg-4 ">
+                    <div class="col-lg-4 mb-4">
                         <div class="blog_single">
                             <div class="blog_img">
                                 <a href="{{ route('blog_details', $data->slug) }}"><img
@@ -34,7 +34,7 @@
                                     </h3>
                                 </a>
                                 <a href="{{ route('blog_details', $data->slug) }}">
-                                    <p style="margin-top:0;">{{ Str::limit(strip_tags($data->description), 150, '..') }}</p>
+                                    <p style="margin-top:0;">{{ Str::limit(strip_tags($data->description), 140, '..') }}</p>
                                 </a>
                                 <div class="text-center">
                                     <a class="btn-standard mt-0" href="{{ route('blog_details', $data->slug) }}" style="border:1px solid #2b4dff;">Read More</a>

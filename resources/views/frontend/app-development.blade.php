@@ -7,7 +7,7 @@
                     <h1>App Devlopment Agency in USA</h1>
                     <p>As a USA-award-winning mobile application and <a class="web_main" href="{{ route('webdevelopment') }}">web development company</a>, we drive results through knowledge, innovation, and professionalism. We craft strong, effective business solutions that improve experiences, fuel growth, and realize measurable success industries-wide.
                     </p>
-                    <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+                    <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
                 </div>
             <div class="col-lg-6  appoinment">
                 <div class="appoinment-box text-center">
@@ -47,7 +47,7 @@
                     <h2>Android App Development</h2>
                     <p>At Royal Squad, we are committed to providing high-performance Android apps customized to suit your business requirements. Our team of experienced and talented Android developers is skilled at creating innovative, user-friendly, and feature-packed mobile apps that can make a difference in today's competitive world.</p>
                     <p>We use the most current Android technologies to stay ahead of industry trends. Our applications deliver smooth functionality and an excellent user experience. We thoroughly examine every concept from idea to rollout, designing technical solutions that meet today's business needs.</p>
-                    <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Learn More</a>    
+                    <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect" href="{{ route('contact') }}">Learn More</a>    
                 </div>
             </div>
             <div class="col-md-6">
@@ -123,7 +123,7 @@
                                         <div class="info">
                                             <h4>Swift Mobile App Development</h4>
                                         <p>Boost your Apple ecosystem with our Swift mobile app development solutions. We develop high-speed, seamless, intuitive applications for iPhones and iPads, providing best-in-class performance with Apple's cutting-edge programming language.</p>
-                                        <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get a Free Consultation</a>    
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +140,10 @@
                                 </div>
                             </div>
                         </div>
+                           <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect" href="{{ route('contact') }}">Get a Free Consultation</a>    
                     </div>
+
+                 
                 </div>
                 <div class="col-lg-4 sidebar">
                     <h4>Tech Services </h4>
@@ -168,7 +171,7 @@
                         <ul>
                             <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                             <li><a class="active" href="{{ route('appdevelopment') }}">App Development</a></li>
-                            <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                            <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                             <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                             <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                         </ul>

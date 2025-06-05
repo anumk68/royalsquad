@@ -31,7 +31,7 @@
                 <p>Enjoy fast, secure, and uninterrupted connectivity with our professional home network setup. We optimize your Wi-Fi, eliminate dead zones, and enhance network security for seamless performance. Whether for work, streaming, or gaming, we ensure a stable and reliable connection across all your devices. Stay connected without interruptions! </p>
                 <div class="service-items text-center pb-4 ser-d">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-cogs"></i>
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-scanner-touchscreen"></i>
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-bolt"></i>
@@ -98,7 +98,7 @@
                 <div class="sidebar-item link">  <ul>
                         <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                         <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                     </ul>

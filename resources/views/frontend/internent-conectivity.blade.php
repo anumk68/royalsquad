@@ -6,7 +6,7 @@
                 <div class="col-lg-6">
                     <h1>Comprehensive Internet Connectivity Solutions </h1>
                     <p>Enjoy fast, secure, and reliable internet connectivity solutions that boost productivity, streaming, gaming, and smooth online experiences for everyone.</p>
-                    <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+                    <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
                 </div>
                 <div class="col-lg-6  appoinment">
                     <div class="appoinment-box text-center"> 
@@ -32,7 +32,7 @@
                     </p>
                     <div class="service-items text-center pb-4 ser-d">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 single-item">
+                            <div class="col-lg-4 col-md-6 mb-4 single-item">
                                 <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-cogs"></i>
@@ -43,7 +43,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 single-item">
+                            <div class="col-lg-4 col-md-6 mb-4 single-item">
                                 <div class="item">
                                     <div class="icon">
                                         <i class="fal fa-scanner-touchscreen"></i>
@@ -54,7 +54,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 single-item">
+                            <div class="col-lg-4 col-md-6 mb-4 single-item">
                                 <div class="item">
                                     <div class="icon">
                                         <i class="fal fa-bolt"></i>
@@ -71,7 +71,7 @@
                 <p>Learn about how stable internet connection revolutionizes companies in the USA. From effortless communication to increased productivity, learn the advantages of RoyalSquad. Remain competitive and innovative with solid online solutions designed for contemporary businesses. <a href="{{ route('wificonnectivity') }}">WiFi Connectivity Services </a>ensure seamless connectivity for optimal business performance. </p>
                     <h3>Future Trends in Internet Connectivity Services </h3>
                     <p>Be ahead of the rest with internet connectivity innovations in the USA. At RoyalSquad, learn how advanced technologies influence the future of internet experiences. Find solutions for quicker, safer, and more stable connections.</p>
-                    <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get a Free Consultation</a>
+                    <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect" href="{{ route('contact') }}">Get a Free Consultation</a>
                 </div>
                 <div class="col-lg-4 sidebar">
                     <h4>Tech Services </h4>
@@ -99,7 +99,7 @@
                         <ul>
                             <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                             <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                            <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                            <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                             <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                             <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                         </ul>

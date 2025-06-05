@@ -20,7 +20,7 @@
                 <p> At Royal Squad, we are experts in providing top-notch UX/UI design and <a class="web_main" href="{{ route('webdevelopment') }}">web development services</a> in the USA that maximize user experience and business growth. Our skilled team designs intuitive, interactive, and innovative digital experiences customized to achieve your business goals.
 
                 </p>
-                <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+                <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
             </div>
 
            <div class="col-lg-6  appoinment">
@@ -29,8 +29,6 @@
                             <h4>Appointment</h4>
                             <p>
                             Easily schedule your appointment and let our team ensure a seamless and personalized experience for you. 
-
-
                             </p>
                         </div>
                         @include('frontend.common_form.form')
@@ -305,7 +303,7 @@
 
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
 
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
 
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
 

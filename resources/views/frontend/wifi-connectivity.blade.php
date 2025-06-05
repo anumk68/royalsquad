@@ -10,7 +10,7 @@ style="background-image: url(public/assets/img/banner/wifi_conectiivity_banner.j
         <div class="col-lg-6">
             <h1>Fast & Reliable WiFi Connectivity Services Royal Squad</h1>
             <p>Enjoy seamless, secure, and high-speed WiFi for your home or business.</p>
-            <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+            <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
         </div>
         <div class="col-lg-6  appoinment">
             <div class="appoinment-box text-center">
@@ -36,11 +36,11 @@ style="background-image: url(public/assets/img/banner/wifi_conectiivity_banner.j
                 <h2>Why Royal Squad’s Small Business WiFi Services?</h2>
                 <p>Royal Squad’s small business WiFi services ensure fast, secure, and reliable connectivity to keep your operations running smoothly. With professional installation, advanced security, and 24/7 remote management, we provide customized solutions to meet your business needs. Experience uninterrupted internet access and maximize productivity with Royal Squad’s expert WiFi connectivity services.
                 </p>
-                <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get started today!</a>
+                <a class="btn btn-light effect btn-md wow fadeInUp services_btn get_service_btn btn-standard button_effect" href="{{ route('contact') }}">Get started today!</a>
                 <div class="service-items text-center pb-4 ser-d">
                     <div class="row">
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4 single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-cogs"></i>
@@ -53,7 +53,7 @@ style="background-image: url(public/assets/img/banner/wifi_conectiivity_banner.j
                     </div>
                     <!-- End Single item -->
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4 single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-scanner-touchscreen"></i>
@@ -66,7 +66,7 @@ style="background-image: url(public/assets/img/banner/wifi_conectiivity_banner.j
                     </div>
                     <!-- End Single item -->
                     <!-- Single item -->
-                    <div class="col-lg-4 col-md-6 single-item">
+                    <div class="col-lg-4 col-md-6 mb-4 single-item">
                         <div class="item">
                             <div class="icon">
                                 <i class="fal fa-bolt"></i>
@@ -96,7 +96,7 @@ style="background-image: url(public/assets/img/banner/wifi_conectiivity_banner.j
                 </div>
                 <h3>Stay Connected with Royal Squad – Get WiFi Solutions Today!</h3>
                 <p>Don’t let connectivity issues slow you down! Royal Squad offers fast, secure, and reliable WiFi services tailored to your needs. We provide expert installation, troubleshooting, and 24/7 support for business or home. Upgrade your network today!</p>
-                <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get started today!</a>
+                <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect btn-standard button_effect" href="{{ route('contact') }}">Get started today!</a>
             </div>
             <div class="col-lg-4 sidebar">
                 <h4>Tech Services </h4>
@@ -124,7 +124,7 @@ style="background-image: url(public/assets/img/banner/wifi_conectiivity_banner.j
                     <ul>
                         <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                         <!-- <li><a href="wordpress-theme-it.php">WordPress Theme</a></li> -->
                         <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>

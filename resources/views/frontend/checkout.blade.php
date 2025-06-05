@@ -1,6 +1,6 @@
 @extends('includes.app')
 @section('content')
-<div class="breadcrumb-area shadow dark bg-fixed text-light" style="background-image: url(public/assets/img/checkout_bg.jpg);">
+<div class="breadcrumb-area shadow dark bg-fixed text-light about_banner" style="background-image: url(public/assets/img/checkout_bg.jpg);">
 <div class="container">
     <div class="row align-center">
         <div class="col-lg-12">
@@ -52,7 +52,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button type="submit" name="submit" id="submit" class="btn btn-primary check_b">
+                                    <button type="submit" name="submit" id="submit" class="btn btn-primary check_b btn-standard button_effect checkout_btn">
                                         SUBMIT
                                     </button>
                                 </div>

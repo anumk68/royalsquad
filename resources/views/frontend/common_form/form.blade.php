@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="col-lg-12">
-            <button type="submit" name="submit" id="submit" class="btn btn-primary btn-standard">
+            <button type="submit" name="submit" id="submit" class="btn btn-theme effect btn-sm btn-standard button_effect">
                 Submit Query
             </button>
         </div>

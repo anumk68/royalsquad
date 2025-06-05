@@ -77,7 +77,7 @@
 
                         <!-- Single item -->
 
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
 
                             <div class="item">
 
@@ -106,7 +106,7 @@
 
                         <!-- Single item -->
 
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
 
                             <div class="item">
 
@@ -138,7 +138,7 @@
 
                         <!-- Single item -->
 
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
 
                             <div class="item">
 
@@ -202,7 +202,7 @@
 
                <div class="row mt-4">
 
-                <div class="col-lg-12 col-md-4">
+                <div class="col-lg-12 col-md-12 col-sm-12">
 
                     <h5>Technology</h5>
 
@@ -298,7 +298,7 @@
 
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
 
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
 
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
 

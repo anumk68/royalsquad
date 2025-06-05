@@ -1,6 +1,6 @@
 @extends('includes.app')
 @section('content')
-    <div class="breadcrumb-area shadow dark bg-fixed text-light" style="background-image: url(public/assets/img/about_img.jpg);">
+    <div class="breadcrumb-area shadow dark bg-fixed text-light about_banner" style="background-image: url(public/assets/img/about_img.jpg);">
         <div class="container">
             <div class="row align-center">
                 <div class="col-lg-12">
@@ -21,7 +21,7 @@
                         <p>
                         We provide end-to-end IT solutions to enhance efficiency, security, and scalability. From cutting-edge technology support to seamless integration, our expert team ensures your business stays ahead in a rapidly evolving digital landscape.
                         </p>
-                        <a href="{{ route('contact') }}" class="btn btn-theme effect btn-sm">Contact</a>
+                        <a href="{{ route('contact') }}" class="btn btn-theme effect btn-sm btn-standard button_effect">Contact</a>
                     </div>
                     <div class="col-lg-6">
                       <div class="thumb">

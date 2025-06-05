@@ -29,7 +29,7 @@
                     <p>Simplify your communication with our expert email services for security and efficiency. We offer effortless email setup, spam filtering, and encrypted messaging for uninterrupted workflow. Our solutions provide quick and secure email delivery for business and personal use. Stay safe from cyber attacks with our premium security features. Enjoy effortless email management with our expert assistance!</p>
                     <div class="service-items text-center pb-4 ser-d">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 single-item">
+                            <div class="col-lg-4 col-md-6 mb-4 single-item">
                                 <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-cogs"></i>
@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 single-item">
+                            <div class="col-lg-4 col-md-6 mb-4 single-item">
                                 <div class="item">
                                     <div class="icon">
                                         <i class="fal fa-scanner-touchscreen"></i>
@@ -51,7 +51,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 single-item">
+                            <div class="col-lg-4 col-md-6 mb-4 single-item">
                                 <div class="item">
                                     <div class="icon">
                                         <i class="fal fa-bolt"></i>
@@ -74,7 +74,7 @@
                             <ul class="checked-list mt-1">
                                 <li>Webmail Interfaces </li>
                                 <li>POP (Post Office Protocol) and IMAP </li>
-                                <li>SMTP (Simple Mail Transfer Protocol):</li>
+                                <li>SMTP (Simple Mail Transfer Protocol)</li>
                             </ul>
                         </div>
                         <div class="col-lg-6 col-md-4">
@@ -115,7 +115,7 @@
                         <ul>
                             <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                             <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                            <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                            <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                             <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                             <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                         </ul>

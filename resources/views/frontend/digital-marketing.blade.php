@@ -6,7 +6,7 @@
                 <div class="col-lg-6">
                     <h1>Best Digital Marketing Agency in the USA</h1>
                     <p>At Royal Squad, we're a top USA Digital Marketing Agency committed to enhancing businesses online. Whether you are a startup, a minor, or a mature company, our tailored approaches give you maximum exposure, interaction, and conversions.</p>
-                    <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+                    <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
                 </div>
            <div class="col-lg-6  appoinment">
                     <div class="appoinment-box text-center">
@@ -140,12 +140,12 @@
                                             <h4>Web Design</h4>
                                   <p>Web design is the creation of a well-designed and informative website that is in line with the company's requirements and facilitates the company's branding and marketing policies. We design great, interactive designs to create an appealing layout. Our approach is to employ excellent UI and layouts that are not only visually appealing but also functional and easy to navigate
                                   </p>
-                                  <a class="btn btn-light effect btn-md wow fadeInUp services_btn" href="{{ route('contact') }}">Get a Free Consultation</a>    
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <a class="btn btn-light effect btn-md wow fadeInUp services_btn btn-standard button_effect" href="{{ route('contact') }}">Get a Free Consultation</a>   
                     </div>
                 </div>
                 <div class="col-lg-4 sidebar">
@@ -174,7 +174,7 @@
                         <ul>
                             <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                             <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                            <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                            <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                             <li><a class="active" href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                             <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                         </ul>

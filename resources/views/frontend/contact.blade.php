@@ -2,7 +2,7 @@
 @section('content')
     <div class="breadcrumb-area shadow dark bg-fixed text-light" style="background-image: url(public/assets/img/contact.jpg);">
         <div class="container">
-            <div class="row align-center">
+            <div class="row align-center text-center">
                 <div class="col-lg-12">
                     <h1>Contact Us</h1>
                 </div>
@@ -11,7 +11,7 @@
     </div>
     <div class="contact-area overflow-hidden default-padding">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center ">
                 <div class="col-lg-6 contact-form-box">
                 <div class="contact_form_main_royal">
                     <div class="appoinment-box text-center">

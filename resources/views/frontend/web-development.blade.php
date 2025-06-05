@@ -15,7 +15,7 @@
                 <h1>Web Development Company in the USA</h1>
                 <p>Are you looking for a high-quality web development firm in the USA with highly experienced teams in custom website development? Enjoy world-class web services with Royal Squad.
                 </p>
-                <a class="btn btn-light effect btn-md wow fadeInUp" href="{{ route('contact') }}">Get A Quote</a>
+                <a class="btn btn-light effect btn-md wow fadeInUp btn-standard button_effect" href="{{ route('contact') }}">Get A Quote</a>
             </div>
             <div class="col-lg-6  appoinment">
                 <div class="appoinment-box text-center">
@@ -317,7 +317,7 @@
 
                             <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
     
-                            <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                            <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
     
                             <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
    

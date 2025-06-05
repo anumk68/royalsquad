@@ -32,7 +32,7 @@
                 <p>At Royal Squad, we specialize in Apple Mac IT Support Services, offering tailored solutions for businesses and individuals across the USA. Whether you're facing software glitches, hardware issues, or ongoing maintenance, our certified Mac experts ensure seamless IT operations for </p>
                 <div class="service-items text-center pb-4 ser-d">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-cogs"></i>
@@ -43,7 +43,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-scanner-touchscreen"></i>
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 single-item">
+                        <div class="col-lg-4 col-md-6 mb-4 single-item">
                             <div class="item">
                                 <div class="icon">
                                     <i class="fal fa-bolt"></i>
@@ -105,7 +105,7 @@
                     <ul>
                         <li><a href="{{ route('webdevelopment') }}">Web Development</a></li>
                         <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
-                        <li><a href="{{ route('webagency') }}">Web Agency</a></li>
+                        <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
                         <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
                         <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
                     </ul>
