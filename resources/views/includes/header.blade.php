@@ -135,16 +135,16 @@
                         </button>
                     </div>
                     <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li>
+                        <li   class="{{ Route::is('home') ? 'active' : '' }}" >
                             <a class="smooth-menu" href="{{ route('home') }}">Home Support</a>
                         </li>
-                        <li>
+                        <li  class="{{ Route::is('about') ? 'active' : '' }}">
                             <a class="smooth-menu" href="{{ route('about') }}">About</a>
                         </li>
-                        <li>
+                        <li class="{{ Route::is('blogs') ? 'active' : '' }}">
                             <a class="smooth-menu" href="{{ route('blogs') }}">Blog</a>
                         </li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown"  class="{{ Route::is(' Tech Services') ? 'active' : '' }}">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tech Services </a>
 
                             <ul class="dropdown-menu tec">
@@ -197,11 +197,11 @@
 
                             </ul>
 
-                        </li>
+                        </li> -->
 
 
 
-                        <li class="dropdown">
+                        <!-- <li class="dropdown"  class="{{ Route::is('IT Services') ? 'active' : '' }}">
 
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"> IT Services </a>
 
@@ -211,17 +211,62 @@
 
                                 <li><a href="{{ route('appdevelopment') }}">App Development</a></li>
 
-                                <!-- <li><a href="{{ route('webagency') }}">Web Agency</a></li> -->
+                                  35rwsfdv3rwef34rwf  <li><a href="{{ route('webagency') }}">Web Agency</a></li>
 
                                 <li><a href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
 
-                                <!-- <li><a href="wordpress-theme-it.php">WordPress Theme</a></li> -->
+                                e3rewdsf34rwf43rf  <li><a href="wordpress-theme-it.php">WordPress Theme</a></li>
 
                                 <li><a href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
 
                                 </ul>
 
-                        </li>
+                        </li> -->
+
+                        <li class="dropdown {{
+    Route::is(
+        'virusmalwareremoval', 'computertuneups', 'homenetworking', 'emailservices',
+        'internentconectivity', 'wificonnectivity', 'programerrorscrashes',
+        'microsoftwindows', 'smartphonestablet', 'applemacios', 'printermultifunction',
+        'trainingguidence', 'softwareapplication', 'anitvirussecuritysoftware'
+    ) ? 'active' : ''
+}}">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tech Services</a>
+    <ul class="dropdown-menu tec">
+        <div class="main sub-menu">
+            <div class="sub-menu">
+                <li><a class="{{ Route::is('virusmalwareremoval') ? 'active' : '' }}" href="{{ route('virusmalwareremoval') }}">Virus & Malware Removal</a></li>
+                <li><a class="{{ Route::is('computertuneups') ? 'active' : '' }}" href="{{ route('computertuneups') }}">Computer Tune-Ups</a></li>
+                <li><a class="{{ Route::is('homenetworking') ? 'active' : '' }}" href="{{ route('homenetworking') }}">Home Networking</a></li>
+                <li><a class="{{ Route::is('emailservices') ? 'active' : '' }}" href="{{ route('emailservices') }}">Email Services</a></li>
+                <li><a class="{{ Route::is('internentconectivity') ? 'active' : '' }}" href="{{ route('internentconectivity') }}">Internet Connectivity</a></li>
+            </div>
+            <div class="sub-menu">
+                <li><a class="{{ Route::is('wificonnectivity') ? 'active' : '' }}" href="{{ route('wificonnectivity') }}">WiFi Connectivity</a></li>
+                <li><a class="{{ Route::is('programerrorscrashes') ? 'active' : '' }}" href="{{ route('programerrorscrashes') }}">Program Errors & Crashes</a></li>
+                <li><a class="{{ Route::is('microsoftwindows') ? 'active' : '' }}" href="{{ route('microsoftwindows') }}">Microsoft Windows</a></li>
+                <li><a class="{{ Route::is('smartphonestablet') ? 'active' : '' }}" href="{{ route('smartphonestablet') }}">Smartphones & Tablets</a></li>
+                <li><a class="{{ Route::is('applemacios') ? 'active' : '' }}" href="{{ route('applemacios') }}">Apple Mac OS</a></li>
+            </div>
+            <div class="sub-menu">
+                <li><a class="{{ Route::is('printermultifunction') ? 'active' : '' }}" href="{{ route('printermultifunction') }}">Printers & Multifunctions</a></li>
+                <li><a class="{{ Route::is('trainingguidence') ? 'active' : '' }}" href="{{ route('trainingguidence') }}">Training & Guidance</a></li>
+                <li><a class="{{ Route::is('softwareapplication') ? 'active' : '' }}" href="{{ route('softwareapplication') }}">Software Applications</a></li>
+                <li><a class="{{ Route::is('anitvirussecuritysoftware') ? 'active' : '' }}" href="{{ route('anitvirussecuritysoftware') }}">Antivirus & Security Software</a></li>
+            </div>
+        </div>
+    </ul>
+</li>
+<li class="dropdown {{ Route::is('webdevelopment', 'appdevelopment', 'digitalmarketing', 'uiuxdesign') ? 'active' : '' }}">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">IT Services</a>
+    <ul class="dropdown-menu">
+        <li><a class="{{ Route::is('webdevelopment') ? 'active' : '' }}" href="{{ route('webdevelopment') }}">Web Development</a></li>
+        <li><a class="{{ Route::is('appdevelopment') ? 'active' : '' }}" href="{{ route('appdevelopment') }}">App Development</a></li>
+        <li><a class="{{ Route::is('digitalmarketing') ? 'active' : '' }}" href="{{ route('digitalmarketing') }}">Digital Marketing</a></li>
+        <li><a class="{{ Route::is('uiuxdesign') ? 'active' : '' }}" href="{{ route('uiuxdesign') }}">UI/UX Design</a></li>
+    </ul>
+</li>
+
 
 
                         <!-- <li>
@@ -230,7 +275,7 @@
 
                         </li> -->
 
-                        <li>
+                        <li  class="{{ Route::is('contact') ? 'active' : '' }}">
 
                             <a class="smooth-menu" href="{{ route('contact') }}">Contact</a>
 

@@ -624,7 +624,7 @@
                             </div>
                         </div>
                         <div class="info col-lg-7">
-                            <p>Their expertise in IT solutions helped streamline our operations seamlessly—a truly dependable partner!" </p>
+                            <p>Their IT expertise streamlined our operations—an exceptionally reliable and trusted partner! </p>
                             <div class="rating">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -648,7 +648,7 @@
                             </div>
                         </div>
                         <div class="info col-lg-7">
-                            <p>Royal Squad's support team is always available when I need them. They quickly fixed my WiFi issues and optimized my home network for seamless connectivity! </p>
+                            <p>Royal Squad swiftly fixed WiFi, ensuring seamless network connectivity.</p>
                             <div class="rating">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>

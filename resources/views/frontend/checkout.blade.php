@@ -101,7 +101,7 @@
                             </h5>
                         </div>
                     </div>
-                    <button type="submit" name="submit" id="submit" class="btn btn-primary check_b">
+                    <button type="submit" name="submit" id="submit" class="btn btn-primary check_b btn-standard button_effect checkout_btn">
                                        Pay Now
                     </button>
                 </div>

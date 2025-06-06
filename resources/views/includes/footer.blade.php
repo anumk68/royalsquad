@@ -48,33 +48,33 @@
 
                             <ul>
 
-                                <li>
+                                <li >
 
-                                    <a href="{{ route('computertuneups') }}">Computer Tune-Ups</a>
-
-                                </li>
-
-                                <li>
-
-                                    <a href="{{ route('homenetworking') }}">Home Networking</a>
+                                    <a href="{{ route('computertuneups') }}" class="{{ Route::is('computertuneups') ? 'active' : '' }}">Computer Tune-Ups</a>
 
                                 </li>
 
                                 <li>
 
-                                    <a href="{{ route('emailservices') }}">Email Services</a>
+                                    <a href="{{ route('homenetworking') }}" class="{{ Route::is('homenetworking') ? 'active' : '' }}">Home Networking</a>
 
                                 </li>
 
                                 <li>
 
-                                    <a href="{{ route('internentconectivity') }}">Internet Connectivity</a>
+                                    <a href="{{ route('emailservices') }}"class="{{ Route::is('emailservices') ? 'active' : '' }}">Email Services</a>
 
                                 </li>
 
                                 <li>
 
-                                    <a href="{{ route('microsoftwindows') }}">Microsoft Windows</a>
+                                    <a href="{{ route('internentconectivity') }}"class="{{ Route::is('internentconectivity') ? 'active' : '' }}">Internet Connectivity</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="{{ route('microsoftwindows') }}"class="{{ Route::is('microsoftwindows') ? 'active' : '' }}">Microsoft Windows</a>
 
                                 </li>
 
@@ -96,13 +96,13 @@
 
                                 <li>
 
-                                    <a href="{{ route('webdevelopment') }}">Web Development</a>
+                                    <a href="{{ route('webdevelopment') }}" class="{{ Route::is('microsoftwindows') ? 'active' : '' }}">Web Development</a>
 
                                 </li>
 
                                 <li>
 
-                                    <a href="{{ route('appdevelopment') }}">App Development</a>
+                                    <a href="{{ route('appdevelopment') }}" class="{{ Route::is('appdevelopment') ? 'active' : '' }}">App Development</a>
 
                                 </li>
 
@@ -114,13 +114,13 @@
 
                                 <li>
 
-                                    <a href="{{ route('digitalmarketing') }}">Digital Marketing</a>
+                                    <a href="{{ route('digitalmarketing') }}" class="{{ Route::is('digitalmarketing') ? 'active' : '' }}">Digital Marketing</a>
 
                                 </li>
 
                                 <li>
 
-                                    <a href="{{ route('uiuxdesign') }}">UI/UX Design</a>
+                                    <a href="{{ route('uiuxdesign') }}" class="{{ Route::is('uiuxdesign') ? 'active' : '' }}">UI/UX Design</a>
 
                                 </li>
 
